@@ -1,0 +1,805 @@
+
+body{
+    background-color: #ffffff;
+     margin: 0;
+     padding: 0;
+     font-family: 'Arimo', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*Header*/
+.encabezado {
+    background-color: #4a5165;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 15px 10%;
+    padding-bottom: 0px;
+}
+
+.encabezado .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.encabezado .logo img{
+    height: 70px;
+    width: auto;
+    border-radius: 50%;
+    transition: all 0.4s;;
+}
+
+.encabezado .logo img:hover{
+    transform: scale(1.2);
+}
+
+.encabezado nav .links{
+    list-style: none;
+}
+
+.encabezado nav .links li{
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.5s;
+}
+.encabezado nav .links li:hover{
+    transform: scale(1.1);
+}
+
+.encabezado nav .links li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.encabezado nav .links li a:hover{
+    color: #6febf9;
+}
+
+/*contenido Principal*/
+.container{
+    height: auto;
+    width: 100%;
+}
+.container .image_welcome{
+    height: 680px;
+    width: 100%;
+    background-image: url(../img/me2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .image_welcome .welcome{
+    height: 400px;
+    width: 400px;
+    padding-top: 200px;
+    padding-left: 200px;
+    justify-items: center;
+}
+
+.container .image_welcome .welcome h3{
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.container .image_welcome .welcome h1{
+    color: #6febf9;
+    font-size: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.container .image_welcome .welcome h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container .section2{
+width: 70%;
+height: auto;
+max-width: 1200px;
+margin: auto;
+padding: 60px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.container .section2 img{
+    width: 250px;
+    height: 320px;
+    float: left;
+    margin-right: 78px;
+    margin-bottom: 20px;
+    border: 6px solid #484c4d;
+    background-color: #dad6d6;
+}
+
+.container .section2 #AboutMe{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0a9aaa;
+}
+
+.container .section2 p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #6e6f6f;
+}
+
+.container .section2 a{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4c8e95;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#knowledge{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    color: #0a9aaa;
+}
+
+.section3{
+    width: 100%;
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+/*carta 1*/
+
+.section3 .card-1{
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: start;
+    transition: all 0.25s;
+    background-image:  linear-gradient(0deg, rgba(0, 85, 255, 0.706), rgba(0, 144, 254, 0.678), rgba(3, 121, 255, 0.695)), url("https://www.techies.es/wp-content/uploads/2021/03/desarrollo-web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3 .card-1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section3 .card-1 h2{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.section3 .card-1 p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section3 .card-1 a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+/*carta 2*/
+.section3 .card-2{
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: start;
+    transition: all 0.25s;
+    background-image: linear-gradient(0deg, rgba(255, 149, 0, 0.753), rgba(254, 148, 0, 0.713), rgba(255, 150, 3, 0.725)), url("https://www.areatecnologia.com/informatica/imagenes/que-es-ciberseguridad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3 .card-2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section3 .card-2 h2{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section3 .card-2 p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section3 .card-2 a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+/*carta 3*/
+
+.section3 .card-3{
+    width:500px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: start;
+    transition: all 0.25s;
+    background-image: linear-gradient(0deg, rgba(255, 0, 230, 0.706), rgba(254, 0, 246, 0.678), rgba(255, 3, 247, 0.695)), url("https://bunkerdb.com/blog/wp-content/uploads/2020/10/Fotos-con-celular.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3 .card-3:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section3 .card-3 h2{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+
+.section3 .card-3 p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 15px;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*carta 4*/
+
+.section3 .card-4{
+    width:500px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: start;
+    transition: all 0.25s;
+    background-image: linear-gradient(0deg, rgba(0, 221, 18, 0.759), rgba(0, 223, 26, 0.748), rgba(0, 223, 11, 0.753)), url("https://www.sprachcaffe.com/fileadmin/Redaktion/img/_sprachcaffe/magazine/Magazine_Espanol/estudiar_idiomas_en_el_extranjero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3 .card-4:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section3 .card-4 h2{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section3 .card-4 p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*Seccion 4*/
+#projects{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.section4{
+    width: 100%;
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.section4 .card-1{
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: start;
+    transition: all 0.25s;
+    background-image: linear-gradient(0deg, rgba(0, 85, 255, 0.706), rgba(0, 144, 254, 0.678), rgba(3, 121, 255, 0.695)), url("https://images.ctfassets.net/yr4qj72ki4ky/legacyBlogPost77Thumbnail/cd4783ad7b35efc4367166a570a9952e/bigstock-Real-Java-Script-Code-Developi-217215433.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section4 .card-1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section4 .card-1 h2{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.section4 .card-1 p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section4 .card-1 a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+/*Carta 2 en section 4*/
+
+.section4 .card-2{
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: start;
+    transition: all 0.25s;
+    background-image: linear-gradient(0deg, rgba(255, 165, 40, 0.753), rgba(255, 165, 39, 0.713),rgba(255, 167, 44, 0.725)), url("https://www.pragma.com.co/hubfs/h_react.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section4 .card-2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section4 .card-2 h2{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.section4 .card-2 p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section4 .card-2 a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+/*Carta 3 en section4*/
+.section4 .card-3{
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: start;
+    transition: all 0.25s;
+    background-image: linear-gradient(0deg, rgba(17, 255, 0, 0.706), rgba(0, 254, 34, 0.678), rgba(3, 255, 11, 0.695)), url("https://www.fastcomet.com/blog/wp-content/uploads/2022/03/Advantages_and_Disadvantages_of_React_JS.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section4 .card-3:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section4 .card-3 h2{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.section4 .card-3 p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section4 .card-3 a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+/*Carta 4 en section4*/
+.section4 .card-4{
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: start;
+    transition: all 0.25s;
+    background-image:linear-gradient(0deg, rgba(246, 0, 205, 0.652), rgba(217, 0, 202, 0.412), rgba(222, 0, 222, 0.537)), url("https://library-gamer.netlify.app/img/logoLibraryGamer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section4 .card-4:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section4 .card-4 h2{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.section4 .card-4 p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section4 .card-4 a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+
+
+/*footer*/
+
+.end{
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 250px;
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.end .contacto .endImage{
+    margin: 10px;
+    width: 100px;
+    border-radius: 100px;
+    align-items: flex-start;
+    justify-items: center;
+    
+}
+.end .contacto .contactame{
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+    color: #F39C12;
+}
+
+ul {
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-left: 6px;
+}
+  
+li {
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+}
+
+.end ul .linkedin{
+    width: 50px;
+    height: 50px;
+}
+
+.end ul .gitHub{
+    width: 55px;
+    height: 55px;
+}
+
+.end ul .whatsapp{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 1000px){
+    .encabezado{
+        position: relative;
+    }
+    .encabezado .logo img{
+        height: 50px;
+        width: auto;
+    }
+    .encabezado nav .links li a{
+        font-size: 16px;
+    }
+    .container .image_welcome{
+        background-image: none;
+        background-color: #F39C12;
+        text-align: center;
+        height: 300px;
+        width: auto;
+    }
+    .container .image_welcome .welcome{
+        height: 300px;
+        width: auto;
+        padding: 30px 0 0 0;
+        text-align: center;
+    }
+    .container .image_welcome .welcome h3{
+        font-size: 10px;
+        padding: 0 5px 0 5px;
+        color: #000000;
+    }
+    .container .image_welcome .welcome h1{
+        font-size: 40px;
+        color: #f5f5f5;
+    }
+    .container .image_welcome .welcome h2{
+        font-size: 20px;
+        color: #242424;
+    }
+}
+
+@media (max-width: 600px){
+    .encabezado{
+    background-color: #000000;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 15px 10%;
+    padding-bottom: 0px;
+    }
+    .encabezado .logo{
+        align-self: center;
+        margin: 0%;
+    }
+    .container .section2 img{
+        height: 250px;
+        width: 200px;
+    }
+    .container .section2 h2{
+        font-size: 30px;
+    }
+    .container .section2 p{
+        font-size: 15px;
+    }
+    #knowledge{
+        font-size: 35px;
+    }
+    .container .section3 .card-1{
+        height: 200px;
+        width: 400px;
+    }
+    .container .section3 .card-1 h2{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .container .section3 .card-1 p{
+        font-size: 13px;
+        padding-top: 10px;
+        line-height: 20px;
+    }
+    .container .section3 .card-1 a{
+        font-size: 15px;
+    }
+    /*Carta 2*/
+    .container .section3 .card-2{
+        height: 200px;
+        width: 400px;
+    }
+    .container .section3 .card-2 h2{
+        font-size: 25px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .container .section3 .card-2 p{
+        font-size: 10px;
+        padding-top: 0px;
+        line-height: 20px;
+    }
+    .container .section3 .card-2 a{
+        font-size: 15px;
+    }
+
+    /*Carta 3*/
+    .container .section3 .card-3{
+        height: 200px;
+        width: 400px;
+    }
+    .container .section3 .card-3 h2{
+        font-size: 25px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+    .container .section3 .card-3 p{
+        font-size: 13px;
+        padding-top: 0px;
+        line-height: 15px;
+    }
+    .container .section3 .card-3 a{
+        font-size: 15px;
+    }
+
+    /*Carta 4*/
+    .container .section3 .card-4{
+        height: 200px;
+        width: 400px;
+    }
+    .container .section3 .card-4 h2{
+        font-size: 25px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+    .container .section3 .card-4 p{
+        font-size: 13px;
+        padding-top: 0px;
+        line-height: 15px;
+    }
+    .container .section3 .card-4 a{
+        font-size: 15px;
+    }
+
+    #projects {
+        font-size: 35px;
+    }
+    /*Section 4 Card 1*/
+    .container .section4 .card-1{
+        height: 200px;
+        width: 400px;
+    }
+    .container .section4 .card-1 h2{
+        font-size: 25px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+    .container .section4 .card-1 p{
+        font-size: 13px;
+        padding-top: 0px;
+        line-height: 15px;
+    }
+    .container .section4 .card-1 a{
+        font-size: 15px;
+    }
+
+    /*Card 2*/
+    .container .section4 .card-2{
+        height: 200px;
+        width: 400px;
+    }
+    .container .section4 .card-2 h2{
+        font-size: 25px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+    .container .section4 .card-2 p{
+        font-size: 13px;
+        padding-top: 0px;
+        line-height: 15px;
+    }
+    .container .section4 .card-2 a{
+        font-size: 15px;
+    }
+
+    /*Card 3*/
+    .container .section4 .card-3{
+        height: 200px;
+        width: 400px;
+    }
+    .container .section4 .card-3 h2{
+        font-size: 25px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+    .container .section4 .card-3 p{
+        font-size: 13px;
+        padding-top: 0px;
+        line-height: 15px;
+    }
+    .container .section4 .card-3 a{
+        font-size: 15px;
+    }
+
+    /*Card 4*/
+    .container .section4 .card-4{
+        height: 200px;
+        width: 400px;
+    }
+    .container .section4 .card-4 h2{
+        font-size: 25px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+    .container .section4 .card-4 p{
+        font-size: 13px;
+        padding-top: 0px;
+        line-height: 15px;
+    }
+    .container .section4 .card-4 a{
+        font-size: 15px;
+    }
+
+
+}
