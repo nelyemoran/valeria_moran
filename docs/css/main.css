@@ -622,7 +622,7 @@ li {
     }
     .container .image_welcome{
         background-image: none;
-        background-color: #61747ab9;
+        background-color: #34495E ;
         text-align: center;
         height: 300px;
         width: auto;
@@ -640,7 +640,7 @@ li {
     }
     .container .image_welcome .welcome h1{
         font-size: 40px;
-        color: #2e2b46 /*color: #6febf9*/;
+        color: #6febf9;
     }
     .container .image_welcome .welcome h2{
         font-size: 20px;
