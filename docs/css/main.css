@@ -618,7 +618,7 @@ li {
         width: auto;
     }
     .encabezado nav .links li a{
-        font-size: 16px;
+        font-size: 10px;
     }
     .container .image_welcome{
         background-image: none;
@@ -662,6 +662,10 @@ li {
         align-self: center;
         margin: 0%;
     }
+
+    .encabezado nav .links li a{
+        font-size: 10px;
+     }
     .container .section2 img{
         height: 250px;
         width: 200px;
